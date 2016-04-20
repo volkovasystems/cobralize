@@ -1,0 +1,27 @@
+{
+  "name": "cobralize",
+  "version": "0.0.0",
+  "description": "Transform any human readable alphanumeric string divided by certain characters into underscore separated uppercase form.",
+  "main": "cobralize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/cobralize.git"
+  },
+  "keywords": [
+    "snake-case",
+    "cobralize",
+    "uppercase"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/cobralize/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/cobralize#readme",
+  "dependencies": {
+    "disdo": "0.0.1"
+  }
+}
