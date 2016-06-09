@@ -1,6 +1,9 @@
+"use strict";
+
 /*:
 	@module-license:
 		The MIT License (MIT)
+		@mit-license
 
 		Copyright (@c) 2016 Richeve Siodina Bebedor
 		@email: richeve.bebedor@gmail.com
@@ -27,14 +30,15 @@
 
 	@module-configuration:
 		{
-			"packageName": "cobralize",
-			"fileName": "cobralize.js",
-			"moduleName": "cobralize",
-			"authorName": "Richeve S. Bebedor",
-			"authorEMail": "richeve.bebedor@gmail.com",
-			"repository": "git@github.com:volkovasystems/cobralize.git",
-			"testCase": "cobralize-test.js",
-			"isGlobal": true
+			"package": "cobralize",
+			"path": "cobralize/cobralize.js",
+			"file": "cobralize.js",
+			"module": "cobralize",
+			"author": "Richeve S. Bebedor",
+			"eMail": "richeve.bebedor@gmail.com",
+			"repository": "https://github.com/volkovasystems/cobralize.git",
+			"test": "cobralize-test.js",
+			"global": true
 		}
 	@end-module-configuration
 
@@ -50,10 +54,7 @@
 	@end-include
 */
 
-if( !( typeof window != "undefined" &&
-	"harden" in window &&
-	"disdo" in window ) )
-{
+if( typeof window == "undefined" ){
 	var harden = require( "harden" );
 	var disdo = require( "disdo" );
 }
@@ -95,17 +96,8 @@ var cobralize = function cobralize( text ){
 };
 
 harden.bind( cobralize )
-	( "TEXT_PATTERN",
-		/^(?:[a-zA-Z0-9][a-zA-Z0-9]*[-_ ])*[a-zA-Z0-9][a-zA-Z0-9]*.*$/ );
+	( "TEXT_PATTERN", /^(?:[a-zA-Z0-9][a-zA-Z0-9]*[-_ ])*[a-zA-Z0-9][a-zA-Z0-9]*.*$/ );
 
 if( typeof module != "undefined" ){
 	module.exports = cobralize;
-}
-
-if( typeof global != "undefined" ){
-	harden
-		.bind( cobralize )( "globalize",
-			function globalize( ){
-				harden.bind( global )( "cobralize", cobralize );
-			} );
 }
