@@ -48,15 +48,15 @@
 
 	@include:
 		{
+			"disdo": "disdo",
 			"harden": "harden"
-			"disdo": "disdo"
 		}
 	@end-include
 */
 
 if( typeof window == "undefined" ){
-	var harden = require( "harden" );
 	var disdo = require( "disdo" );
+	var harden = require( "harden" );
 }
 
 if( typeof window != "undefined" &&
@@ -87,16 +87,13 @@ var cobralize = function cobralize( text ){
 		return text;
 	}
 
-	if( cobralize.TEXT_PATTERN.test( text ) ){
-		return disdo( text ).replace( /\s/g, "_" ).toUpperCase( );
-
-	}else{
-		return text;
-	}
+	return disdo( text )
+		.toUpperCase( )
+		.replace( cobralize.SPACE_PATTERN, "_" );
 };
 
 harden.bind( cobralize )
-	( "TEXT_PATTERN", /^(?:[a-zA-Z0-9][a-zA-Z0-9]*[-_ ])*[a-zA-Z0-9][a-zA-Z0-9]*.*$/ );
+	( "SPACE_PATTERN", /\s+/g );
 
 if( typeof module != "undefined" ){
 	module.exports = cobralize;
