@@ -89,8 +89,12 @@ var cobralize = function cobralize( text ){
 
 	return disdo( text )
 		.toUpperCase( )
+		.replace( cobralize.DROP_PATTERN, "" )
 		.replace( cobralize.SPACE_PATTERN, "_" );
 };
+
+harden.bind( cobralize )
+	( "DROP_PATTERN", /^[0-9]+/ );
 
 harden.bind( cobralize )
 	( "SPACE_PATTERN", /\s+/g );
