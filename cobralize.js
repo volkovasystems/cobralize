@@ -35,6 +35,9 @@
 			"file": "cobralize.js",
 			"module": "cobralize",
 			"author": "Richeve S. Bebedor",
+			"contributors": [
+				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+			],
 			"eMail": "richeve.bebedor@gmail.com",
 			"repository": "https://github.com/volkovasystems/cobralize.git",
 			"test": "cobralize-test.js",
@@ -43,35 +46,26 @@
 	@end-module-configuration
 
 	@module-documentation:
-
+		Transform any human readable alphanumeric string divided by certain
+		characters into underscore separated uppercase form.
 	@end-module-documentation
 
 	@include:
 		{
 			"disdo": "disdo",
-			"harden": "harden"
+			"falzy": "falzy",
+			"harden": "harden",
+			"protype": "protype"
 		}
 	@end-include
 */
 
-if( typeof window == "undefined" ){
-	var disdo = require( "disdo" );
-	var harden = require( "harden" );
-}
+const disdo = require( "disdo" );
+const falzy = require( "falzy" );
+const harden = require( "harden" );
+const protype = require( "protype" );
 
-if( typeof window != "undefined" &&
-	!( "harden" in window ) )
-{
-	throw new Error( "harden is not defined" );
-}
-
-if( typeof window != "undefined" &&
-	!( "disdo" in window ) )
-{
-	throw new Error( "disdo is not defined" );
-}
-
-var cobralize = function cobralize( text ){
+const cobralize = function cobralize( text ){
 	/*;
 		@meta-configuration:
 			{
@@ -80,9 +74,8 @@ var cobralize = function cobralize( text ){
 		@end-meta-configuration
 	*/
 
-	if( !text ||
-		text === "" ||
-		typeof text != "string" )
+	if( falzy( text ) ||
+		!protype( text, STRING ) )
 	{
 		return text;
 	}
@@ -99,6 +92,4 @@ harden.bind( cobralize )
 harden.bind( cobralize )
 	( "SPACE_PATTERN", /\s+/g );
 
-if( typeof module != "undefined" ){
-	module.exports = cobralize;
-}
+module.exports = cobralize;
