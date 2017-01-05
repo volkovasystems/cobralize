@@ -1,8 +1,10 @@
 {
   "name": "cobralize",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Transform any human readable alphanumeric string divided by certain characters into underscore separated uppercase form.",
   "main": "cobralize.js",
+  "support": "cobralize.support.js",
+  "deploy": "cobralize.deploy.js",
   "authors": [
     "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
     "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
@@ -27,9 +29,8 @@
     "tests"
   ],
   "dependencies": {
-    "disdo": "^0.2.0",
-    "falzy": "^0.5.0",
-    "harden": "^0.7.0",
-    "protype": "^0.4.0"
+    "disdo": "^0.3.0",
+    "falzy": "^0.7.0",
+    "protype": "^0.7.0"
   }
 }

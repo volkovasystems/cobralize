@@ -54,7 +54,6 @@
 		{
 			"disdo": "disdo",
 			"falzy": "falzy",
-			"harden": "harden",
 			"protype": "protype"
 		}
 	@end-include
@@ -62,8 +61,10 @@
 
 const disdo = require( "disdo" );
 const falzy = require( "falzy" );
-const harden = require( "harden" );
 const protype = require( "protype" );
+
+const DROP_PATTERN = /^[0-9]+/;
+const SPACE_PATTERN = /\s+/g;
 
 const cobralize = function cobralize( text ){
 	/*;
@@ -74,22 +75,14 @@ const cobralize = function cobralize( text ){
 		@end-meta-configuration
 	*/
 
-	if( falzy( text ) ||
-		!protype( text, STRING ) )
-	{
+	if( falzy( text ) || !protype( text, STRING ) ){
 		return text;
 	}
 
 	return disdo( text )
 		.toUpperCase( )
-		.replace( cobralize.DROP_PATTERN, "" )
-		.replace( cobralize.SPACE_PATTERN, "_" );
+		.replace( DROP_PATTERN, "" )
+		.replace( SPACE_PATTERN, "_" );
 };
-
-harden.bind( cobralize )
-	( "DROP_PATTERN", /^[0-9]+/ );
-
-harden.bind( cobralize )
-	( "SPACE_PATTERN", /\s+/g );
 
 module.exports = cobralize;

@@ -1,10 +1,13 @@
 {
   "name": "cobralize",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Transform any human readable alphanumeric string divided by certain characters into underscore separated uppercase form.",
   "main": "cobralize.js",
+  "support": "cobralize.support.js",
+  "deploy": "cobralize.deploy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel cobralize.js -o cobralize.support.js && webpack",
+    "test": "mocha cobralize-test.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,7 @@
   ],
   "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
   "contributors": [
-      "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -25,9 +28,17 @@
   },
   "homepage": "https://github.com/volkovasystems/cobralize#readme",
   "dependencies": {
-    "disdo": "^0.2.0",
-    "falzy": "^0.5.0",
-    "harden": "^0.7.0",
-    "protype": "^0.4.0"
+    "babel-runtime": "^6.20.0",
+    "disdo": "^0.3.0",
+    "falzy": "^0.7.0",
+    "protype": "^0.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.14.0"
   }
 }
