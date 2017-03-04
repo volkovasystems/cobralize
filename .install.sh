@@ -16,4 +16,5 @@ bower install \
 falzy \
 disdo \
 protype \
---save
+--save \
+--force-latest
