@@ -1,6 +1,6 @@
 {
   "name": "cobralize",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "description": "Transform any human readable alphanumeric string divided by certain characters into underscore separated uppercase form.",
   "main": "cobralize.deploy.js",
   "support": "cobralize.support.js",
@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "falzy": "^0.17.0",
-    "disdo": "^0.12.0",
+    "disdo": "^0.13.0",
     "protype": "^0.21.0"
   }
 }

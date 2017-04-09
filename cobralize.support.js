@@ -47,7 +47,7 @@
               
               	@module-documentation:
               		Transform any human readable alphanumeric string divided by certain
-              		characters into underscore separated uppercase form.
+              			characters into underscore separated uppercase form.
               	@end-module-documentation
               
               	@include:
@@ -79,10 +79,7 @@ var cobralize = function cobralize(text) {
 		return text;
 	}
 
-	return disdo(text).
-	toUpperCase().
-	replace(DROP_PATTERN, "").
-	replace(SPACE_PATTERN, "_");
+	return disdo(text).toUpperCase().replace(DROP_PATTERN, "").replace(SPACE_PATTERN, "_");
 };
 
 module.exports = cobralize;
