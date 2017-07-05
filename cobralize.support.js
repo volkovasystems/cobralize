@@ -35,10 +35,11 @@
               			"file": "cobralize.js",
               			"module": "cobralize",
               			"author": "Richeve S. Bebedor",
-              			"contributors": [
-              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
-              			],
               			"eMail": "richeve.bebedor@gmail.com",
+              			"contributors": [
+              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+              				"Vinse Vinalon <vinsevinalon@gmail.com>"
+              			],
               			"repository": "https://github.com/volkovasystems/cobralize.git",
               			"test": "cobralize-test.js",
               			"global": true
@@ -53,15 +54,13 @@
               	@include:
               		{
               			"disdo": "disdo",
-              			"falzy": "falzy",
-              			"protype": "protype"
+              			"falzy": "falzy"
               		}
               	@end-include
               */
 
 var disdo = require("disdo");
 var falzy = require("falzy");
-var protype = require("protype");
 
 var DROP_PATTERN = /^[0-9]+/;
 var SPACE_PATTERN = /\s+/g;
@@ -75,7 +74,7 @@ var cobralize = function cobralize(text) {
                                           	@end-meta-configuration
                                           */
 
-	if (falzy(text) || !protype(text, STRING)) {
+	if (falzy(text) || typeof text != "string") {
 		return text;
 	}
 
