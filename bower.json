@@ -1,35 +1,31 @@
 {
-  "name": "cobralize",
-  "version": "0.16.0",
-  "description": "Transform any human readable alphanumeric string divided by certain characters into underscore separated uppercase form.",
-  "main": "cobralize.deploy.js",
-  "support": "cobralize.support.js",
-  "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon <vinsevinalon@gmail.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "snake-case",
-    "cobralize",
-    "uppercase"
-  ],
-  "homepage": "https://github.com/volkovasystems/cobralize",
-  "moduleType": [
-    "es6",
-    "globals",
-    "node"
-  ],
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "falzy": "^0.20.0",
-    "disdo": "^0.16.0"
-  }
+	"name": "cobralize",
+	"version": "0.16.0",
+	"description": "Transform any human readable alphanumeric string divided by certain characters into underscore separated uppercase form.",
+	"main": "cobralize.deploy.js",
+	"support": "cobralize.support.js",
+	"authors": [
+		"Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+		"Vinse Vinalon <vinsevinalon@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"snake-case",
+		"cobralize",
+		"uppercase"
+	],
+	"homepage": "https://github.com/volkovasystems/cobralize",
+	"moduleType": [
+		"es6",
+		"globals",
+		"node"
+	],
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
 }

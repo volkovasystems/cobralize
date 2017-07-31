@@ -1,0 +1,74 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2017-07-31T11:49:41.503Z",
+    "end": "2017-07-31T11:49:41.511Z",
+    "duration": 8
+  },
+  "tests": [
+    {
+      "title": "should have value 'HELLO_WORLD'",
+      "fullTitle": "cobralize \"cobralize( \"Hello World\" )\" should have value 'HELLO_WORLD'",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have value 'HELLO_WORLD'",
+      "fullTitle": "cobralize \"cobralize( \"hello_world\" )\" should have value 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have value 'HELLO_WORLD'",
+      "fullTitle": "cobralize \"cobralize( \"helloWorld\" )\" should have value 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have value 'HELLO_WORLD'",
+      "fullTitle": "cobralize \"cobralize( \"hello world\" )\" should have value 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should have value 'HELLO_WORLD'",
+      "fullTitle": "cobralize \"cobralize( \"Hello World\" )\" should have value 'HELLO_WORLD'",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have value 'HELLO_WORLD'",
+      "fullTitle": "cobralize \"cobralize( \"hello_world\" )\" should have value 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have value 'HELLO_WORLD'",
+      "fullTitle": "cobralize \"cobralize( \"helloWorld\" )\" should have value 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have value 'HELLO_WORLD'",
+      "fullTitle": "cobralize \"cobralize( \"hello world\" )\" should have value 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
