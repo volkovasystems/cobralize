@@ -159,6 +159,8 @@ describe( "cobralize", ( ) => {
 
 describe( "cobralize", ( ) => {
 
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
+
 	describe( `"cobralize( 'Hello World' )"`, ( ) => {
 		it( `"should be equal to 'HELLO_WORLD'`, ( ) => {
 
