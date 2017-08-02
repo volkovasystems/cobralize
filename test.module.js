@@ -177,6 +177,7 @@ describe( "cobralize", ( ) => {
 		} );
 	} );
 
+
 	describe( `"cobralize( 'hello_world' )"`, ( ) => {
 		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
 
@@ -193,6 +194,7 @@ describe( "cobralize", ( ) => {
 		} );
 	} );
 
+
 	describe( `"cobralize( 'helloWorld' )"`, ( ) => {
 		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
 
@@ -208,6 +210,7 @@ describe( "cobralize", ( ) => {
 
 		} );
 	} );
+	
 
 	describe( `"cobralize( 'hello world' )"`, ( ) => {
 		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
