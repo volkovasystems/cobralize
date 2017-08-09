@@ -28,11 +28,8 @@
 		"test",
 		"tests"
 	],
-	"resolutions": {
-		"falzy": "^0.23.0"
-	},
 	"dependencies": {
 		"falzy": "^0.23.0",
-		"disdo": "^0.16.0"
+		"disdo": "^0.17.0"
 	}
 }

@@ -70,44 +70,42 @@ const cobralize = require( "./cobralize.js" );
 
 
 describe( "cobralize", ( ) => {
-	
-	describe( `"cobralize( "Hello World" )"`, ( ) => {
-		it( "should have value 'HELLO_WORLD'", ( ) => {
+
+	describe( "`cobralize( 'Hello World' )`", ( ) => {
+		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "Hello World" ), "HELLO_WORLD" );
 
 		} );
 	} );
 
-	describe( `"cobralize( "hello_world" )"`, ( ) => {
-		it( "should have value 'HELLO_WORLD'", ( ) => {
+	describe( "`cobralize( 'hello_world' )`", ( ) => {
+		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "hello_world" ), "HELLO_WORLD" );
 
 		} );
 	} );
 
-	describe( `"cobralize( "helloWorld" )"`, ( ) => {
-		it( "should have value 'HELLO_WORLD'" , ( ) => {
+	describe( "`cobralize( 'helloWorld' )`", ( ) => {
+		it( "should be equal to 'HELLO_WORLD'" , ( ) => {
 
 			assert.equal( cobralize( "helloWorld" ), "HELLO_WORLD" );
 
 		} );
 	} );
 
-	describe( `"cobralize( "hello world" )"`, ( ) => {
-		it( "should have value 'HELLO_WORLD'", ( ) => {
+	describe( "`cobralize( 'hello world' )`", ( ) => {
+		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "hello world" ), "HELLO_WORLD" );
 
 		} );
 	} );
-	
+
 } );
 
 //: @end-server
-
-
 
 
 
