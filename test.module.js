@@ -75,7 +75,7 @@ const path = require( "path" );
 
 describe( "cobralize", ( ) => {
 
-	describe( `"cobralize( "Hello World" )"`, ( ) => {
+	describe( "`cobralize( 'Hello World' )`", ( ) => {
 		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "Hello World" ), "HELLO_WORLD" );
@@ -83,7 +83,7 @@ describe( "cobralize", ( ) => {
 		} );
 	} );
 
-	describe( `"cobralize( "hello_world" )"`, ( ) => {
+	describe( "`cobralize( 'hello_world' )`", ( ) => {
 		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "hello_world" ), "HELLO_WORLD" );
@@ -91,7 +91,7 @@ describe( "cobralize", ( ) => {
 		} );
 	} );
 
-	describe( `"cobralize( "helloWorld" )"`, ( ) => {
+	describe( "`cobralize( 'helloWorld' )`", ( ) => {
 		it( "should be equal to 'HELLO_WORLD'" , ( ) => {
 
 			assert.equal( cobralize( "helloWorld" ), "HELLO_WORLD" );
@@ -99,7 +99,7 @@ describe( "cobralize", ( ) => {
 		} );
 	} );
 
-	describe( `"cobralize( "hello world" )"`, ( ) => {
+	describe( "`cobralize( 'hello world' )`", ( ) => {
 		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "hello world" ), "HELLO_WORLD" );
@@ -116,7 +116,7 @@ describe( "cobralize", ( ) => {
 
 describe( "cobralize", ( ) => {
 
-	describe( `"cobralize( "Hello World" )"`, ( ) => {
+	describe( "`cobralize( 'Hello World' )`", ( ) => {
 		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "Hello World" ), "HELLO_WORLD" );
@@ -124,7 +124,7 @@ describe( "cobralize", ( ) => {
 		} );
 	} );
 
-	describe( `"cobralize( "hello_world" )"`, ( ) => {
+	describe( "`cobralize( 'hello_world' )`", ( ) => {
 		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "hello_world" ), "HELLO_WORLD" );
@@ -132,7 +132,7 @@ describe( "cobralize", ( ) => {
 		} );
 	} );
 
-	describe( `"cobralize( "helloWorld" )"`, ( ) => {
+	describe( "`cobralize( 'helloWorld' )`", ( ) => {
 		it( "should be equal to 'HELLO_WORLD'" , ( ) => {
 
 			assert.equal( cobralize( "helloWorld" ), "HELLO_WORLD" );
@@ -140,14 +140,13 @@ describe( "cobralize", ( ) => {
 		} );
 	} );
 
-	describe( `"cobralize( "hello world" )"`, ( ) => {
+	describe( "`cobralize( 'hello world' )`", ( ) => {
 		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			assert.equal( cobralize( "hello world" ), "HELLO_WORLD" );
 
 		} );
 	} );
-
 
 } );
 
@@ -161,7 +160,7 @@ describe( "cobralize", ( ) => {
 
 	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
 
-	describe( `"cobralize( 'Hello World' )"`, ( ) => {
+	describe( "`cobralize( 'Hello World' )`", ( ) => {
 		it( `"should be equal to 'HELLO_WORLD'`, ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
@@ -178,7 +177,7 @@ describe( "cobralize", ( ) => {
 	} );
 
 
-	describe( `"cobralize( 'hello_world' )"`, ( ) => {
+	describe( "`cobralize( 'hello_world' )`", ( ) => {
 		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
@@ -195,7 +194,7 @@ describe( "cobralize", ( ) => {
 	} );
 
 
-	describe( `"cobralize( 'helloWorld' )"`, ( ) => {
+	describe( "`cobralize( 'helloWorld' )`", ( ) => {
 		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
@@ -210,9 +209,9 @@ describe( "cobralize", ( ) => {
 
 		} );
 	} );
-	
 
-	describe( `"cobralize( 'hello world' )"`, ( ) => {
+
+	describe( "`cobralize( 'hello world' )`", ( ) => {
 		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
