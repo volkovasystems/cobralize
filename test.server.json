@@ -1,74 +1,74 @@
 {
-	"stats": {
-		"suites": 5,
-		"tests": 4,
-		"passes": 4,
-		"pending": 0,
-		"failures": 0,
-		"start": "2017-08-09T09:39:20.843Z",
-		"end": "2017-08-09T09:39:20.848Z",
-		"duration": 5
-	},
-	"tests": [
-		{
-			"title": "should be equal to 'HELLO_WORLD'",
-			"fullTitle": "cobralize `cobralize( 'Hello World' )` should be equal to 'HELLO_WORLD'",
-			"duration": 1,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should be equal to 'HELLO_WORLD'",
-			"fullTitle": "cobralize `cobralize( 'hello_world' )` should be equal to 'HELLO_WORLD'",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should be equal to 'HELLO_WORLD'",
-			"fullTitle": "cobralize `cobralize( 'helloWorld' )` should be equal to 'HELLO_WORLD'",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should be equal to 'HELLO_WORLD'",
-			"fullTitle": "cobralize `cobralize( 'hello world' )` should be equal to 'HELLO_WORLD'",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		}
-	],
-	"pending": [],
-	"failures": [],
-	"passes": [
-		{
-			"title": "should be equal to 'HELLO_WORLD'",
-			"fullTitle": "cobralize `cobralize( 'Hello World' )` should be equal to 'HELLO_WORLD'",
-			"duration": 1,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should be equal to 'HELLO_WORLD'",
-			"fullTitle": "cobralize `cobralize( 'hello_world' )` should be equal to 'HELLO_WORLD'",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should be equal to 'HELLO_WORLD'",
-			"fullTitle": "cobralize `cobralize( 'helloWorld' )` should be equal to 'HELLO_WORLD'",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should be equal to 'HELLO_WORLD'",
-			"fullTitle": "cobralize `cobralize( 'hello world' )` should be equal to 'HELLO_WORLD'",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		}
-	]
+  "stats": {
+    "suites": 5,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2017-08-17T20:54:23.752Z",
+    "end": "2017-08-17T20:54:23.759Z",
+    "duration": 7
+  },
+  "tests": [
+    {
+      "title": "should be equal to 'HELLO_WORLD'",
+      "fullTitle": "cobralize `cobralize( 'Hello World' )` should be equal to 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be equal to 'HELLO_WORLD'",
+      "fullTitle": "cobralize `cobralize( 'hello_world' )` should be equal to 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be equal to 'HELLO_WORLD'",
+      "fullTitle": "cobralize `cobralize( 'helloWorld' )` should be equal to 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be equal to 'HELLO_WORLD'",
+      "fullTitle": "cobralize `cobralize( 'hello world' )` should be equal to 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should be equal to 'HELLO_WORLD'",
+      "fullTitle": "cobralize `cobralize( 'Hello World' )` should be equal to 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be equal to 'HELLO_WORLD'",
+      "fullTitle": "cobralize `cobralize( 'hello_world' )` should be equal to 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be equal to 'HELLO_WORLD'",
+      "fullTitle": "cobralize `cobralize( 'helloWorld' )` should be equal to 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be equal to 'HELLO_WORLD'",
+      "fullTitle": "cobralize `cobralize( 'hello world' )` should be equal to 'HELLO_WORLD'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
