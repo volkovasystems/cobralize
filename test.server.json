@@ -5,15 +5,15 @@
     "passes": 4,
     "pending": 0,
     "failures": 0,
-    "start": "2017-08-17T20:54:23.752Z",
-    "end": "2017-08-17T20:54:23.759Z",
-    "duration": 7
+    "start": "2017-08-18T00:44:03.777Z",
+    "end": "2017-08-18T00:44:03.787Z",
+    "duration": 10
   },
   "tests": [
     {
       "title": "should be equal to 'HELLO_WORLD'",
       "fullTitle": "cobralize `cobralize( 'Hello World' )` should be equal to 'HELLO_WORLD'",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -45,7 +45,7 @@
     {
       "title": "should be equal to 'HELLO_WORLD'",
       "fullTitle": "cobralize `cobralize( 'Hello World' )` should be equal to 'HELLO_WORLD'",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
