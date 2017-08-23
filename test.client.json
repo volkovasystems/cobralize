@@ -4,8 +4,8 @@
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-08-09T09:39:21.940Z",
-	"end": "2017-08-09T09:39:54.937Z",
+	"start": "2017-08-23T08:19:38.688Z",
+	"end": "2017-08-23T08:20:11.649Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,85 +28,85 @@
 		{
 			"name": "cobralize",
 			"duration": 0,
-			"start": "2017-08-09T09:39:54.564Z",
+			"start": "2017-08-23T08:20:11.271Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "cobralize",
-			"duration": 197,
-			"start": "2017-08-09T09:39:54.564Z",
-			"end": "2017-08-09T09:39:54.761Z",
+			"duration": 200,
+			"start": "2017-08-23T08:20:11.272Z",
+			"end": "2017-08-23T08:20:11.472Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-08-09T09:39:54.566Z",
-					"end": "2017-08-09T09:39:54.566Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "cobralize",
-					"associatedTest": "\"should be equal to 'HELLO_WORLD'"
-				},
-				{
-					"start": "2017-08-09T09:39:54.642Z",
-					"end": "2017-08-09T09:39:54.642Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "cobralize",
-					"associatedTest": "\"should be equal to 'HELLO_WORLD'"
-				},
-				{
-					"start": "2017-08-09T09:39:54.643Z",
-					"end": "2017-08-09T09:39:54.643Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "cobralize",
-					"associatedTest": "\"should be equal to 'HELLO_WORLD'\""
-				},
-				{
-					"start": "2017-08-09T09:39:54.686Z",
-					"end": "2017-08-09T09:39:54.687Z",
+					"start": "2017-08-23T08:20:11.273Z",
+					"end": "2017-08-23T08:20:11.274Z",
 					"duration": 1,
-					"title": "\"after each\" hook",
-					"associatedSuite": "cobralize",
-					"associatedTest": "\"should be equal to 'HELLO_WORLD'\""
-				},
-				{
-					"start": "2017-08-09T09:39:54.687Z",
-					"end": "2017-08-09T09:39:54.687Z",
-					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "cobralize",
-					"associatedTest": "\"should be equal to 'HELLO_WORLD'\""
+					"associatedTest": "should be equal to 'HELLO_WORLD'"
 				},
 				{
-					"start": "2017-08-09T09:39:54.722Z",
-					"end": "2017-08-09T09:39:54.722Z",
+					"start": "2017-08-23T08:20:11.353Z",
+					"end": "2017-08-23T08:20:11.353Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "cobralize",
-					"associatedTest": "\"should be equal to 'HELLO_WORLD'\""
+					"associatedTest": "should be equal to 'HELLO_WORLD'"
 				},
 				{
-					"start": "2017-08-09T09:39:54.723Z",
-					"end": "2017-08-09T09:39:54.723Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "cobralize",
-					"associatedTest": "\"should be equal to 'HELLO_WORLD'\""
-				},
-				{
-					"start": "2017-08-09T09:39:54.760Z",
-					"end": "2017-08-09T09:39:54.761Z",
+					"start": "2017-08-23T08:20:11.354Z",
+					"end": "2017-08-23T08:20:11.355Z",
 					"duration": 1,
-					"title": "\"after each\" hook",
+					"title": "\"before each\" hook",
 					"associatedSuite": "cobralize",
-					"associatedTest": "\"should be equal to 'HELLO_WORLD'\""
+					"associatedTest": "should be equal to 'HELLO_WORLD'"
 				},
 				{
-					"start": "2017-08-09T09:39:54.761Z",
-					"end": "2017-08-09T09:39:54.761Z",
+					"start": "2017-08-23T08:20:11.400Z",
+					"end": "2017-08-23T08:20:11.400Z",
 					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "cobralize",
+					"associatedTest": "should be equal to 'HELLO_WORLD'"
+				},
+				{
+					"start": "2017-08-23T08:20:11.400Z",
+					"end": "2017-08-23T08:20:11.400Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "cobralize",
+					"associatedTest": "should be equal to 'HELLO_WORLD'"
+				},
+				{
+					"start": "2017-08-23T08:20:11.438Z",
+					"end": "2017-08-23T08:20:11.438Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "cobralize",
+					"associatedTest": "should be equal to 'HELLO_WORLD'"
+				},
+				{
+					"start": "2017-08-23T08:20:11.440Z",
+					"end": "2017-08-23T08:20:11.440Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "cobralize",
+					"associatedTest": "should be equal to 'HELLO_WORLD'"
+				},
+				{
+					"start": "2017-08-23T08:20:11.472Z",
+					"end": "2017-08-23T08:20:11.472Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "cobralize",
+					"associatedTest": "should be equal to 'HELLO_WORLD'"
+				},
+				{
+					"start": "2017-08-23T08:20:11.472Z",
+					"end": "2017-08-23T08:20:11.473Z",
+					"duration": 1,
 					"title": "\"after all\" hook",
 					"associatedSuite": "cobralize"
 				}
@@ -114,15 +114,15 @@
 		},
 		{
 			"name": "`cobralize( 'Hello World' )`",
-			"duration": 78,
-			"start": "2017-08-09T09:39:54.565Z",
-			"end": "2017-08-09T09:39:54.643Z",
+			"duration": 81,
+			"start": "2017-08-23T08:20:11.273Z",
+			"end": "2017-08-23T08:20:11.354Z",
 			"tests": [
 				{
-					"name": "\"should be equal to 'HELLO_WORLD'",
-					"start": "2017-08-09T09:39:54.565Z",
-					"end": "2017-08-09T09:39:54.642Z",
-					"duration": 77,
+					"name": "should be equal to 'HELLO_WORLD'",
+					"start": "2017-08-23T08:20:11.273Z",
+					"end": "2017-08-23T08:20:11.352Z",
+					"duration": 79,
 					"state": "pass"
 				}
 			],
@@ -130,15 +130,15 @@
 		},
 		{
 			"name": "`cobralize( 'hello_world' )`",
-			"duration": 44,
-			"start": "2017-08-09T09:39:54.643Z",
-			"end": "2017-08-09T09:39:54.687Z",
+			"duration": 46,
+			"start": "2017-08-23T08:20:11.354Z",
+			"end": "2017-08-23T08:20:11.400Z",
 			"tests": [
 				{
-					"name": "\"should be equal to 'HELLO_WORLD'\"",
-					"start": "2017-08-09T09:39:54.643Z",
-					"end": "2017-08-09T09:39:54.686Z",
-					"duration": 43,
+					"name": "should be equal to 'HELLO_WORLD'",
+					"start": "2017-08-23T08:20:11.354Z",
+					"end": "2017-08-23T08:20:11.400Z",
+					"duration": 46,
 					"state": "pass"
 				}
 			],
@@ -146,15 +146,15 @@
 		},
 		{
 			"name": "`cobralize( 'helloWorld' )`",
-			"duration": 36,
-			"start": "2017-08-09T09:39:54.687Z",
-			"end": "2017-08-09T09:39:54.723Z",
+			"duration": 39,
+			"start": "2017-08-23T08:20:11.400Z",
+			"end": "2017-08-23T08:20:11.439Z",
 			"tests": [
 				{
-					"name": "\"should be equal to 'HELLO_WORLD'\"",
-					"start": "2017-08-09T09:39:54.687Z",
-					"end": "2017-08-09T09:39:54.722Z",
-					"duration": 35,
+					"name": "should be equal to 'HELLO_WORLD'",
+					"start": "2017-08-23T08:20:11.400Z",
+					"end": "2017-08-23T08:20:11.438Z",
+					"duration": 38,
 					"state": "pass"
 				}
 			],
@@ -162,15 +162,15 @@
 		},
 		{
 			"name": "`cobralize( 'hello world' )`",
-			"duration": 38,
-			"start": "2017-08-09T09:39:54.723Z",
-			"end": "2017-08-09T09:39:54.761Z",
+			"duration": 33,
+			"start": "2017-08-23T08:20:11.439Z",
+			"end": "2017-08-23T08:20:11.472Z",
 			"tests": [
 				{
-					"name": "\"should be equal to 'HELLO_WORLD'\"",
-					"start": "2017-08-09T09:39:54.723Z",
-					"end": "2017-08-09T09:39:54.760Z",
-					"duration": 37,
+					"name": "should be equal to 'HELLO_WORLD'",
+					"start": "2017-08-23T08:20:11.439Z",
+					"end": "2017-08-23T08:20:11.472Z",
+					"duration": 33,
 					"state": "pass"
 				}
 			],
