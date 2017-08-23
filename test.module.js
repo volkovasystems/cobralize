@@ -161,7 +161,7 @@ describe( "cobralize", ( ) => {
 	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
 
 	describe( "`cobralize( 'Hello World' )`", ( ) => {
-		it( `"should be equal to 'HELLO_WORLD'`, ( ) => {
+		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
 
@@ -178,7 +178,7 @@ describe( "cobralize", ( ) => {
 
 
 	describe( "`cobralize( 'hello_world' )`", ( ) => {
-		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
+		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
 
@@ -195,7 +195,7 @@ describe( "cobralize", ( ) => {
 
 
 	describe( "`cobralize( 'helloWorld' )`", ( ) => {
-		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
+		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
 
@@ -212,7 +212,7 @@ describe( "cobralize", ( ) => {
 
 
 	describe( "`cobralize( 'hello world' )`", ( ) => {
-		it( `"should be equal to 'HELLO_WORLD'"`, ( ) => {
+		it( "should be equal to 'HELLO_WORLD'", ( ) => {
 
 			let result = browser.url( bridgeURL ).execute(
 
